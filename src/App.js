@@ -1,25 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Route, BrowserRouter as Router, Switch} from 'react-router-dom'
+import RepoComp from './components/RepoComp/Repositories';
+import AboutMeComp from './components/AboutMeComp/AboutMe';
+import ContactComp from './components/ContactComp/Contact';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBarComp from './components/NavBar/NavBarComp';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <Router>
+    <div className="App"
+      // style = {{
+      //   backgroundColor: "#74B1EC"
+      // }}
+      >
+    <NavBarComp></NavBarComp>
+      <Switch>
+      <Route path = '/Contact' component = {ContactComp}/>
+      <Route path = '/Repo' component = {RepoComp}/>
+      <Route path = '/' component = {AboutMeComp}/>
+      </Switch>
     </div>
+    </Router>
+    
   );
 }
 

@@ -1,0 +1,27 @@
+.carousel {
+    width:400px;
+    height:250px;
+    margin: auto;
+  }
+
+.container {
+    padding: 15px;
+}
+.col{
+    padding: 10px;
+    text-align: center;
+}
+
+.carousel-font{
+    color: black;
+}
+
+.carousel-container{
+    background-color: #D7D9DB;
+    text-align: center;
+    margin: 10px;
+}
+
+.portGenlink{
+    margin-top: 3px;
+}
