@@ -21,7 +21,7 @@ function RepoComp() {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h2 className="carousel-font"></h2>
+                        <h2 className="carousel-font">Park Planner</h2>
                         {/* <p>Words</p> */}
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -33,7 +33,7 @@ function RepoComp() {
                     />
 
                     <Carousel.Caption>
-                    <h2 className="carousel-font"></h2>
+                    <h2 className="carousel-font">Park Planner</h2>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -44,7 +44,7 @@ function RepoComp() {
                     />
 
                     <Carousel.Caption>
-                    <h2 className="carousel-font"></h2>
+                    <h2 className="carousel-font">Park Planner</h2>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
@@ -74,7 +74,7 @@ function RepoComp() {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3 className="carousel-font"></h3>
+                    <h3 className="carousel-font">Word Game</h3>
             
                 </Carousel.Caption>
             </Carousel.Item>
@@ -86,7 +86,7 @@ function RepoComp() {
                 />
 
                 <Carousel.Caption>
-                    <h3 className="carousel-font"></h3>
+                    <h3 className="carousel-font">Word Game</h3>
                     
                 </Carousel.Caption>
             </Carousel.Item>
@@ -98,7 +98,7 @@ function RepoComp() {
                 />
 
                 <Carousel.Caption>
-                    <h3 className="carousel-font"></h3>
+                    <h3 className="carousel-font">Word Game</h3>
                     
                 </Carousel.Caption>
             </Carousel.Item>
@@ -130,7 +130,7 @@ function RepoComp() {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                <h3 className="carousel-font"></h3>
+                <h3 className="carousel-font">JSTY</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -141,7 +141,7 @@ function RepoComp() {
                 />
 
                 <Carousel.Caption>
-                <h3 className="carousel-font"></h3>
+                <h3 className="carousel-font">JSTY</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -152,7 +152,7 @@ function RepoComp() {
                 />
 
                 <Carousel.Caption>
-                    <h3 className="carousel-font"></h3>
+                    <h3 className="carousel-font">JSTY</h3>
                    
                 </Carousel.Caption>
             </Carousel.Item>
