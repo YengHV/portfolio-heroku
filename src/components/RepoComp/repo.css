@@ -30,3 +30,8 @@
 .project-description{
     padding-top: 5px;
 }
+
+.projectHeading{
+    margin: auto;
+    font-size: 30px;
+}

@@ -9,6 +9,12 @@ function RepoComp() {
             <Container> 
             
         <div className="carousel-container">
+        <Row>
+            <div className="projectHeading">
+            <a href="https://parkplannerarty.herokuapp.com/">Park Planner </a><span> | </span>
+            <a href="https://github.com/YengHV/Park-planner">Github link</a>
+            </div>
+            </Row>
            <Row>
            <Col>
             <Container>
@@ -52,15 +58,22 @@ function RepoComp() {
                 
             </Col>
             <Col>
-            <a href="https://parkplannerarty.herokuapp.com/">Park Planner </a><span> | </span>
-            <a href="https://github.com/YengHV/Park-planner">Github link</a>
+            <h4>Description</h4>
             <p className="project-description">Park Planner displays information, and a five-day weather forecast, for all state and national parks located in Iowa, Minnesota, North Dakota, South Dakota, and Wisconsin.</p>
+            <h4>Techologies used:</h4>
+            <p>HTML, CSS, Javascript, US National Park Service Application Programming Interface API (Third-Pary API), openweather.org API (Third-Pary API), Bootstrap</p>
             </Col>      
             </Row>
             
         </div>
 
         <div className="carousel-container">
+        <Row>
+            <div className="projectHeading">
+            <a href="https://lit-ravine-77685.herokuapp.com/wordgame#">Word Game</a><span> | </span>
+            <a href="https://github.com/YengHV/word-game">Github link</a>
+            </div>
+            </Row>
         <Row>
         <Col>
         <Container >
@@ -109,9 +122,11 @@ function RepoComp() {
         </Container>
         </Col>
         <Col>
-        <a href="https://lit-ravine-77685.herokuapp.com/wordgame#">Word Game</a><span> | </span>
-        <a href="https://github.com/YengHV/word-game">Github link</a>
+        <h4>Description</h4>
         <p className="project-description">Word Game displays seven letters. It’s up to you to find as many words as you can, using only those seven letters. You score a point for each word you find.</p>
+
+        <h4>Techologies used:</h4>
+            <p>HTML, CSS, Javascript, Jquery, Dictionary API (Thrid-party API) Bootstrap</p>
                 </Col>   
      </Row>            
 
