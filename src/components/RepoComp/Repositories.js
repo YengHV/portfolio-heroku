@@ -134,7 +134,12 @@ function RepoComp() {
 
     <div className="carousel-container">
         <Row>
-        
+            <div className="projectHeading">
+            <a href="https://jtsy-portfolio.herokuapp.com/">JSTY</a><span> | </span>
+            <a href="https://github.com/shininglite/portfolio-generator">Github link</a>
+            </div>
+            </Row>
+        <Row>
         <Col>
         <Container>
         <Carousel>
@@ -176,9 +181,11 @@ function RepoComp() {
         </Container>
         </Col>
         <Col>
-        <a href="https://jtsy-portfolio.herokuapp.com/">JSTY</a><span> | </span>
-        <a href="https://github.com/shininglite/portfolio-generator">Github link</a>
+        <h4>Description</h4>
         <p className="project-description">Portfolio Generator is a full-stack React app that creates an automatic portfolio website based on chosen GitHub repositories.</p>
+
+        <h4>Techologies used:</h4>
+            <p>React.js, Javascript, React-Bootstrap, Semantic UI, Github API (Thrid-party API), MongoDB, Express, Node.js </p>
     
         </Col>
         
@@ -187,7 +194,12 @@ function RepoComp() {
 
     <div className="carousel-container">
         <Row>
-        
+            <div className="projectHeading">
+            <a href="https://jtsy-portfolio.herokuapp.com/">Slidshow</a><span> | </span>
+            <a href="https://github.com/shininglite/portfolio-generator">Github link</a>
+            </div>
+        </Row>
+        <Row>
         <Col>
         <Container>
         <Carousel>
@@ -229,9 +241,11 @@ function RepoComp() {
         </Container>
         </Col>
         <Col>
-        <a href="https://jtsy-portfolio.herokuapp.com/">Slidshow</a><span> | </span>
-        <a href="https://github.com/shininglite/portfolio-generator">Github link</a>
+        <h4>Description</h4>
         <p className="project-description">A simple slideshow only using HTML and CSS.</p>
+
+        <h4>Techologies used:</h4>
+        <p>HTML, CSS</p>
     
         </Col>
         
