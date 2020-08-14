@@ -3,8 +3,7 @@
  }
 
 .coding-picture{
-    
-    width: 950px;
+    width: 100%;
+    max-width: 950px;
     height: 300px;
-    align-items: center;
  }
