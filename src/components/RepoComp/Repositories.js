@@ -1,7 +1,7 @@
 import React from "react";
 import "./repo.css"
 import { Carousel, Container, Col, Row} from "react-bootstrap"
-import {parkplannerimg, parkplannerimg2, parkplannerimg3, wordgame, wordgame2, wordgame3, portfolioGen, portfolioGen2, portfolioGen3} from "../../images"
+import {parkplannerimg, parkplannerimg2, parkplannerimg3, wordgame, wordgame2, wordgame3, portfolioGen, portfolioGen2, portfolioGen3, slideshow, slideshow2, slideshow3} from "../../images"
 
 function RepoComp() {
     return (
@@ -179,7 +179,7 @@ function RepoComp() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={portfolioGen}
+                    src={slideshow}
                     alt="First slide"
                 />
                 <Carousel.Caption>
@@ -189,7 +189,7 @@ function RepoComp() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={portfolioGen2}
+                    src={slideshow2}
                     alt="Second slide"
                 />
 
@@ -200,7 +200,7 @@ function RepoComp() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={portfolioGen3}
+                    src={slideshow3}
                     alt="Third slide"
                 />
 
