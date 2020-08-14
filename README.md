@@ -1,16 +1,15 @@
-## Portfolio REACT
-- Create repo page
-- Create About me page
-- Create Contact me page
-### Showcase Repos/ Repo page
-- Working deployment links to repo
-- Github link
-- Description
-### About me
-- picture and information about me
-- ...More to come
-### Contact me
-- Create text box for recruiter input
-- Have working recruiter input to contain messages
+## Portfolio
+A portfolio to display my projects and describing what they are used for.
 
-<!-- test to heroku -->
+## Technologies used
+- React
+- React-Bootstrap
+- FontAwesome
+- Heroku Deployment
+- Html
+- Css
+
+## Developer
+Yeng Vang
+
+<img width="1275" alt="Screen Shot 2020-08-12 at 1 13 13 PM" src="https://user-images.githubusercontent.com/61241205/90052193-64a99400-dc9e-11ea-8296-4fcb553106e6.png">
