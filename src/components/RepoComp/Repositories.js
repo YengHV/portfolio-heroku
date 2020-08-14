@@ -169,6 +169,59 @@ function RepoComp() {
         
         </Row>  
     </div>
+
+    <div className="carousel-container">
+        <Row>
+        
+        <Col>
+        <Container>
+        <Carousel>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src={portfolioGen}
+                    alt="First slide"
+                />
+                <Carousel.Caption>
+                <h3 className="carousel-font">Slideshow</h3>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src={portfolioGen2}
+                    alt="Second slide"
+                />
+
+                <Carousel.Caption>
+                <h3 className="carousel-font">Slideshow</h3>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src={portfolioGen3}
+                    alt="Third slide"
+                />
+
+                <Carousel.Caption>
+                    <h3 className="carousel-font">Slideshow</h3>
+                   
+                </Carousel.Caption>
+            </Carousel.Item>
+        </Carousel>
+        
+        </Container>
+        </Col>
+        <Col>
+        <a href="https://jtsy-portfolio.herokuapp.com/">Slidshow</a><span> | </span>
+        <a href="https://github.com/shininglite/portfolio-generator">Github link</a>
+        <p className="project-description">A simple slideshow only using HTML and CSS.</p>
+    
+        </Col>
+        
+        </Row>  
+    </div>
       
           
     </Container>

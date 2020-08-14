@@ -12,7 +12,7 @@ return(
     <Nav className="mr-auto">
       <Nav.Link href="/">Home</Nav.Link>
       <Nav.Link href="/Contact">Contact</Nav.Link>
-      <Nav.Link href="/Repo">Repositories</Nav.Link>
+      <Nav.Link href="/Repo">My Work</Nav.Link>
 
     </Nav>
   </Navbar.Collapse>
